@@ -1,6 +1,6 @@
-var yourCode = require('../src');
-var reporter = require('jasmine-galvanize-poster');
-jasmine.getEnv().addReporter(reporter);
+var yourCode = require('../src.js');
+// var reporter = require('jasmine-galvanize-poster');
+// jasmine.getEnv().addReporter(reporter);
 
 describe("separating numbers with commas", function() {
   it("returns a string with n numbers separated by commas", function() {
